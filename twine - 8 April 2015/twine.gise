@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="twine.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="s_box_guide.ncd" xil_pn:origination="imported"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1428489453" xil_pn:in_ck="165001301128134196" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1428489453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="con_t.vhd"/>
+      <outfile xil_pn:name="ed_round.vhd"/>
+      <outfile xil_pn:name="keygen.vhd"/>
+      <outfile xil_pn:name="ram_t.vhd"/>
+      <outfile xil_pn:name="s_box.vhd"/>
+      <outfile xil_pn:name="tb_con_t.vhd"/>
+      <outfile xil_pn:name="tb_ram_t.vhd"/>
+      <outfile xil_pn:name="tb_s_box.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1428489453" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4223380637717883586" xil_pn:start_ts="1428489453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428489453" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4225702898511390140" xil_pn:start_ts="1428489453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1428489453" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="807797134761055958" xil_pn:start_ts="1428489453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_ram_t_isim_beh.exe" -prj "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_ram_t_beh.prj" "work.tb_ram_t" 
