@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine_isim_beh.exe" -prj "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine_beh.prj" "tb_twine" 
+-intstyle "ise" -incremental -lib "secureip" -o "H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/tb_twine_isim_beh.exe" -prj "H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/tb_twine_beh.prj" "work.tb_twine" 

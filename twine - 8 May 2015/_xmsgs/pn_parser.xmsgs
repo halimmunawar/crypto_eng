@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/tb_twine.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

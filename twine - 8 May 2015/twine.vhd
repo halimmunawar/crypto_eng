@@ -52,12 +52,21 @@ component keygen is
 			  rst : in  STD_LOGIC);
 end component;
 
-component ram_t is
+--component ram_t is
+--    Port ( clk : in  STD_LOGIC;
+--           rw : in  STD_LOGIC;
+--           data_in : in  STD_LOGIC_VECTOR (31 downto 0);
+--           address : in  STD_LOGIC_VECTOR (5 downto 0);
+--           data_out : out  STD_LOGIC_VECTOR (31 downto 0));
+--end component;
+
+component dpram is
     Port ( clk : in  STD_LOGIC;
-           rw : in  STD_LOGIC;
-           data_in : in  STD_LOGIC_VECTOR (31 downto 0);
-           address : in  STD_LOGIC_VECTOR (5 downto 0);
-           data_out : out  STD_LOGIC_VECTOR (31 downto 0));
+           data_in_a : in  STD_LOGIC_VECTOR (31 downto 0);
+           rw_a : in  STD_LOGIC;
+           address_a : in  STD_LOGIC_VECTOR (5 downto 0);
+           address_b : in  STD_LOGIC_VECTOR (5 downto 0);
+           data_out_b : out  STD_LOGIC_VECTOR (31 downto 0));
 end component;
 
 component ed_round is
@@ -73,7 +82,7 @@ end component;
 
 
 signal flag: std_logic;
-signal rw_ram: std_logic;
+signal rw_ram_a: std_logic;
 signal addr_kg: STD_LOGIC_VECTOR(5 downto 0);
 signal addr_ed: STD_LOGIC_VECTOR(5 downto 0);
 signal addr_ram: STD_LOGIC_VECTOR(5 downto 0);
@@ -81,7 +90,6 @@ signal rk_in: STD_LOGIC_VECTOR(31 downto 0);
 signal rk_in_ram: STD_LOGIC_VECTOR(31 downto 0);
 signal rk_out_ram: STD_LOGIC_VECTOR(31 downto 0);
 signal rk_out: STD_LOGIC_VECTOR(31 downto 0);
-
 
 begin
 
@@ -93,12 +101,17 @@ KEYGEN_0 :   keygen port map (key,
 										rk_in,
 										rst_key);
 										
-RAM_T_0 :	ram_t port map (clk,
-									rw_ram,
-									rk_in_ram,
-									addr_ram,
-									rk_out_ram);
-
+--RAM_T_0 :	ram_t port map (clk,
+--									rw_ram,
+--									rk_in_ram,
+--									addr_ram,
+--									rk_out_ram);
+DPRAM_0 : dpram port map (clk,
+           rk_in_ram,
+           rw_ram_a,
+           addr_ram,
+           addr_ed,
+           rk_out_ram);
 									
 ED_ROUND_0 : ed_round port map (rst_ed,
 									clk,
@@ -114,16 +127,16 @@ pr_twi: process(clk)
 	begin
 		if rising_edge(clk) then
 			if flag = '0' then
-				rw_ram <= '1';	
+				rw_ram_a <= '1';	
 				addr_ram <=addr_kg;
 				rk_in_ram <=rk_in;
 			elsif flag = '1' then
-				rw_ram <= '0';
-				addr_ram <= addr_ed;
+				rw_ram_a <= '0';
+				--addr_ram <= addr_ed;
 				--if wt = '1' then
 					--rk_out <=rk_out_ram;
 					rk_out_test <=rk_out_ram;
-					addr_out_test <= addr_ram;
+					addr_out_test <= addr_ed;
 				--	wt :='0';
 				--else
 				--	wt :='1';

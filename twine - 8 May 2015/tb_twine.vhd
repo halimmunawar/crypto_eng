@@ -70,9 +70,9 @@
 	  
 			rst_ed <= '1';
 			rst_key <= '0';
-			p_text <= X"0123456789abcdef";
+			p_text <= X"7c1f0f80b1df9c28";
 			key <= X"00112233445566778899";
-			enc <= '1';
+			enc <= '0';
        wait for clk_period*2*40; -- wait until global set/reset completes
 			rst_ed <= '0';
         -- Add user defined stimulus here

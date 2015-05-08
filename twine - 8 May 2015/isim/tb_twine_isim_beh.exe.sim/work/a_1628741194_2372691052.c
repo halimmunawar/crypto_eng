@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine.vhd";
+static const char *ng0 = "H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/tb_twine.vhd";
 
 
 
@@ -131,7 +131,7 @@ LAB2:    xsi_set_current_line(71, ng0);
     *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(73, ng0);
-    t2 = (t0 + 7508);
+    t2 = (t0 + 7824);
     t4 = (t0 + 4416);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -140,7 +140,7 @@ LAB2:    xsi_set_current_line(71, ng0);
     memcpy(t8, t2, 64U);
     xsi_driver_first_trans_fast(t4);
     xsi_set_current_line(74, ng0);
-    t2 = (t0 + 7572);
+    t2 = (t0 + 7888);
     t4 = (t0 + 4480);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -154,7 +154,7 @@ LAB2:    xsi_set_current_line(71, ng0);
     t4 = *((char **)t3);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
-    *((unsigned char *)t6) = (unsigned char)3;
+    *((unsigned char *)t6) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(76, ng0);
     t2 = (t0 + 2608U);

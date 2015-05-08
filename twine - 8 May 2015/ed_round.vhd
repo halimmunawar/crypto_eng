@@ -101,7 +101,7 @@ pr_edround: process(clk)
 				if(rnd_count /= "000000" and enc = '0') then				
 					rnd_count := std_logic_vector( unsigned(rnd_count) - 1 ) ;  
 				end if;
-				if wt > "000001" and wt < "100101" then
+				if wt > "000000" and wt < "100100" then
 					a_in <= a_out;
 					wt:=std_logic_vector( unsigned(wt) + 1 );
 				else

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/con_t.vhd";
+static const char *ng0 = "H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/con_t.vhd";
 extern char *IEEE_P_1242562249;
 
 int ieee_p_1242562249_sub_1657552908_1035706684(char *, char *, char *);
@@ -51,7 +51,7 @@ LAB3:    t1 = (t0 + 1648U);
     t2 = *((char **)t1);
     t1 = (t0 + 1192U);
     t3 = *((char **)t1);
-    t1 = (t0 + 5184U);
+    t1 = (t0 + 5332U);
     t4 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t3, t1);
     t5 = (t4 - 0);
     t6 = (t5 * 1);

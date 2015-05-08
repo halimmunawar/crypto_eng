@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/twine.vhd";
+static const char *ng0 = "H:/smt_2/cryptography_engineering/final assignment/crypto_eng/twine - 8 May 2015/twine.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -40,7 +40,7 @@ static void work_a_1841592393_3212880686_p_0(char *t0)
     char *t9;
     char *t10;
 
-LAB0:    xsi_set_current_line(115, ng0);
+LAB0:    xsi_set_current_line(128, ng0);
     t1 = (t0 + 992U);
     t2 = ieee_p_2592010699_sub_1744673427_503743352(IEEE_P_2592010699, t1, 0U, 0U);
     if (t2 != 0)
@@ -51,7 +51,7 @@ LAB3:    t1 = (t0 + 5352);
     *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(116, ng0);
+LAB2:    xsi_set_current_line(129, ng0);
     t3 = (t0 + 2472U);
     t4 = *((char **)t3);
     t5 = *((unsigned char *)t4);
@@ -69,7 +69,7 @@ LAB7:    t1 = (t0 + 2472U);
 LAB9:
 LAB6:    goto LAB3;
 
-LAB5:    xsi_set_current_line(117, ng0);
+LAB5:    xsi_set_current_line(130, ng0);
     t3 = (t0 + 5432);
     t7 = (t3 + 56U);
     t8 = *((char **)t7);
@@ -77,7 +77,7 @@ LAB5:    xsi_set_current_line(117, ng0);
     t10 = *((char **)t9);
     *((unsigned char *)t10) = (unsigned char)3;
     xsi_driver_first_trans_fast(t3);
-    xsi_set_current_line(118, ng0);
+    xsi_set_current_line(131, ng0);
     t1 = (t0 + 2792U);
     t3 = *((char **)t1);
     t1 = (t0 + 5496);
@@ -87,7 +87,7 @@ LAB5:    xsi_set_current_line(117, ng0);
     t9 = *((char **)t8);
     memcpy(t9, t3, 6U);
     xsi_driver_first_trans_fast(t1);
-    xsi_set_current_line(119, ng0);
+    xsi_set_current_line(132, ng0);
     t1 = (t0 + 3272U);
     t3 = *((char **)t1);
     t1 = (t0 + 5560);
@@ -99,7 +99,7 @@ LAB5:    xsi_set_current_line(117, ng0);
     xsi_driver_first_trans_fast(t1);
     goto LAB6;
 
-LAB8:    xsi_set_current_line(121, ng0);
+LAB8:    xsi_set_current_line(134, ng0);
     t1 = (t0 + 5432);
     t4 = (t1 + 56U);
     t7 = *((char **)t4);
@@ -107,17 +107,7 @@ LAB8:    xsi_set_current_line(121, ng0);
     t9 = *((char **)t8);
     *((unsigned char *)t9) = (unsigned char)2;
     xsi_driver_first_trans_fast(t1);
-    xsi_set_current_line(122, ng0);
-    t1 = (t0 + 2952U);
-    t3 = *((char **)t1);
-    t1 = (t0 + 5496);
-    t4 = (t1 + 56U);
-    t7 = *((char **)t4);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    memcpy(t9, t3, 6U);
-    xsi_driver_first_trans_fast(t1);
-    xsi_set_current_line(125, ng0);
+    xsi_set_current_line(138, ng0);
     t1 = (t0 + 3592U);
     t3 = *((char **)t1);
     t1 = (t0 + 5624);
@@ -127,8 +117,8 @@ LAB8:    xsi_set_current_line(121, ng0);
     t9 = *((char **)t8);
     memcpy(t9, t3, 32U);
     xsi_driver_first_trans_fast_port(t1);
-    xsi_set_current_line(126, ng0);
-    t1 = (t0 + 3112U);
+    xsi_set_current_line(139, ng0);
+    t1 = (t0 + 2952U);
     t3 = *((char **)t1);
     t1 = (t0 + 5688);
     t4 = (t1 + 56U);
