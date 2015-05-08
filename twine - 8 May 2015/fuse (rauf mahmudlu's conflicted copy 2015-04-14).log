@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine_isim_beh.exe -prj C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine_beh.prj tb_twine 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/s_box.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/con_t.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/round_k.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/round_f.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/block_shuffle.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/ram_t.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/keygen.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/ed_round.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/twine.vhd" into library work
+Parsing VHDL file "C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 102752 KB
+Fuse CPU Usage: 1301 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity s_box [s_box_default]
+Compiling architecture behavioral of entity con_t [con_t_default]
+Compiling architecture behavioral of entity round_k [round_k_default]
+Compiling architecture behavioral of entity keygen [keygen_default]
+Compiling architecture behavioral of entity ram_t [ram_t_default]
+Compiling architecture behavioral of entity round_f [round_f_default]
+Compiling architecture behavioral of entity block_shuffle [block_shuffle_default]
+Compiling architecture behavioral of entity ed_round [ed_round_default]
+Compiling architecture behavioral of entity twine [twine_default]
+Compiling architecture behavior of entity tb_twine
+Time Resolution for simulation is 1ps.
+Compiled 24 VHDL Units
+Built simulation executable C:/Users/rauf/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/tb_twine_isim_beh.exe
+Fuse Memory Usage: 120592 KB
+Fuse CPU Usage: 2182 ms

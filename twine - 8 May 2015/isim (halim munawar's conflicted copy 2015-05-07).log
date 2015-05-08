@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\Users\halim\Dropbox\CryptoEng\TWINE\twine - 8 April 2015\round_f_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/round_f_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /round_f/S_BOX_1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_2/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_3/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_4/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_5/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_6/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_7/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /round_f/S_BOX_8/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.

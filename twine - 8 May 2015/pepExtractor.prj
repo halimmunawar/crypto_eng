@@ -1,0 +1,6 @@
+work	"block_shuffle.vhd"
+work	"ed_round.vhd"
+work	"rom_c.vhd"
+work	"round_f.vhd"
+work	"s_box.vhd"
+work	"tb_ed_round.vhd"

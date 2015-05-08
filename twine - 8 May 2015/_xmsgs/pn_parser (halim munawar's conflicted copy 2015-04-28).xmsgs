@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/block_shuffle.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/con_t.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/ed_round.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/keygen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/ram_t.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/round_f.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/round_k.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/s_box.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/twine.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/halim/Dropbox/CryptoEng/TWINE/twine - 8 April 2015/twine.vhd</arg>&quot; Line <arg fmt="%d" index="2">291</arg>. <arg fmt="%s" index="3">Syntax error near &quot;a_in&quot;.</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,28 @@
+Command line:
+   tb_twine_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59882
+
+Fri May 08 06:17:17 2015
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 673.55 Meg
+
+ Total Signals          : 193
+ Total Nets             : 2346
+ Total Signal Drivers   : 130
+ Total Blocks           : 23
+ Total Primitive Blocks : 17
+ Total Processes        : 117
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 3710
+
+ Total Simulation Time: 0.140401 sec
+
+ Current Memory Usage: 673.55 Meg
+
+Fri May 08 15:04:32 2015
+
