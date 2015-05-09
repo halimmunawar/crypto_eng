@@ -1,0 +1,10 @@
+Command line:
+   tb_twine_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65534
+
+Sat May 09 19:03:44 2015
+
+
+ Elaboration Time: 0.078001 sec
